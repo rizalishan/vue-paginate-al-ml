@@ -1,5 +1,5 @@
 {
-  "name": "vue-paginate-al-ml",
+  "name": "vue-paginate-ml",
   "version": "1.0.16",
   "description": "paginate for vue js and material design",
   "main": "dist/bundle.js",
@@ -36,10 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alziqziq/vue-paginate-al.git"
+    "url": "git+https://github.com/alziqziq/vue-paginate-ml.git"
   },
   "bugs": {
-    "url": "https://github.com/alziqziq/vue-paginate-al/issues"
+    "url": "https://github.com/alziqziq/vue-paginate-ml/issues"
   },
-  "homepage": "https://github.com/alziqziq/vue-paginate-al#readme"
+  "homepage": "https://github.com/alziqziq/vue-paginate-ml#readme"
 }

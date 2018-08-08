@@ -1,17 +1,14 @@
-## Demo
-[Click here](https://alziqziq.github.io/demo-vuepaginateal/dist/index.html).
-
 ## Install via NPM
 ```js
-    npm install --save vue-paginate-al-ml
+    npm install --save vue-paginate-ml
 ```
 
 #### Register as Plugin
 ```js
     import Vue from 'vue'
-    import VuePaginateAl from 'vue-paginate-al-ml'
+    import VuePaginateAl from 'vue-paginate-ml'
 
-    Vue.component('vue-paginate-al-ml', VuePaginateAl)
+    Vue.component('vue-paginate-ml', VuePaginateAl)
 ```
 
 #### Usage
@@ -33,7 +30,7 @@
     </template>
 
     <script>
-        import VuePaginateAl from 'vue-paginate-al-ml'
+        import VuePaginateAl from 'vue-paginate-ml'
 
         export default {
             name: 'App',

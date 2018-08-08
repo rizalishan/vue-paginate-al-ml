@@ -36,7 +36,7 @@
 <script>
 
     export default {
-        name : 'VuePaginateAl',
+        name : 'VuePaginateMl',
         props : {
             totalPage : {
                 type : Number,
