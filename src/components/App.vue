@@ -34,7 +34,6 @@
 </template>
 
 <script>
-    import 'bootstrap/dist/css/bootstrap.css'
 
     export default {
         name : 'VuePaginateAl',
@@ -190,42 +189,22 @@
 </script>
 
 <style lang="css" scoped>
-    .pagination .active a{
-        z-index: 0;
+    .pagination li {
+    display: inline;
     }
-
-    a:hover {
-        cursor: pointer;
+    .pagination li a {
+        color: black !important;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Raleway', 'Helvetica', 'Arial', sans-serif;
     }
-
-    .active.primary a{
-        background: #007BFF;
-        border-color: #007BFF;
+    .pagination li.active a {
+        background-color: #4CAF50;
+        color: white !important;
     }
-
-    .active.success a{
-        background: #28A745;
-        border-color: #28A745;
+    .pagination li:hover:not(.active) {
+        background-color: #ddd;
     }
-
-    .active.danger a{
-        background: #DC3545;
-        border-color: #DC3545;
-    }
-
-    .active.warning a{
-        background: #FFC107;
-        border-color: #FFC107;
-    }
-
-    .active.info a{
-        background: #17A2B8;
-        border-color: #17A2B8;
-    }
-
-    .active.dark a{
-        background: #343A40;
-        border-color: #343A40;
-    }
-
 </style>

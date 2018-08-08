@@ -1,11 +1,11 @@
-import VuePaginateAl from './components/App.vue'
+import VuePaginateAlMl from './components/App.vue'
 
 const plugin = {
   install: Vue => {
-    Vue.component(VuePaginateAl.name, VuePaginateAl)
+    Vue.component(VuePaginateAlMl.name, VuePaginateAlMl)
   }
 }
 
-VuePaginateAl.install = plugin.install
+VuePaginateAlMl.install = plugin.install
 
-export default VuePaginateAl
+export default VuePaginateAlMl

@@ -1,7 +1,7 @@
 {
-  "name": "vue-paginate-al",
+  "name": "vue-paginate-al-ml",
   "version": "1.0.16",
-  "description": "paginate for vue js",
+  "description": "paginate for vue js and material design",
   "main": "dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,32 +11,28 @@
     "vuejs",
     "vuepaginat"
   ],
-  "author": "Alziqziq",
+  "author": "rizalishan",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
-    "bootstrap": "^3.3.7",
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.4",
     "jquery": "^3.2.1",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
-    "vue": "^2.4.4",
     "vue-loader": "^13.0.5",
-    "vue-template-compiler": "^2.4.4",
-    "webpack": "^3.6.0"
+    "vue-template-compiler": "^2.4.4"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
     "css-loader": "^0.28.7",
-    "vue": "^2.4.4",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
-    "webpack": "^3.6.0"
+    "webpack": "^4.16.5"
   },
   "repository": {
     "type": "git",
