@@ -3,7 +3,7 @@
 
 ## Install via NPM
 ```js
-    npm install --save vue-paginate-al
+    npm install --save vue-paginate-al-ml
 ```
 
 #### Register as Plugin
@@ -11,7 +11,7 @@
     import Vue from 'vue'
     import VuePaginateAl from 'vue-paginate-al'
 
-    Vue.component('vue-paginate-al', VuePaginateAl)
+    Vue.component('vue-paginate-al-ml', VuePaginateAl)
 ```
 
 #### Usage
@@ -33,7 +33,7 @@
     </template>
 
     <script>
-        import VuePaginateAl from 'vue-paginate-al'
+        import VuePaginateAl from 'vue-paginate-al-ml'
 
         export default {
             name: 'App',
