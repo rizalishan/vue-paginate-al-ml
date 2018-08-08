@@ -9,7 +9,7 @@
 #### Register as Plugin
 ```js
     import Vue from 'vue'
-    import VuePaginateAl from 'vue-paginate-al'
+    import VuePaginateAl from 'vue-paginate-al-ml'
 
     Vue.component('vue-paginate-al-ml', VuePaginateAl)
 ```
