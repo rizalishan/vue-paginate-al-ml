@@ -190,10 +190,10 @@
 
 <style lang="css" scoped>
     .pagination li {
-    display: inline;
+        display: inline;
     }
     .pagination li a {
-        color: black !important;
+        color: var(--md-theme-default-primary,#000);
         float: left;
         padding: 8px 16px;
         text-decoration: none;
@@ -201,10 +201,10 @@
         font-family: 'Raleway', 'Helvetica', 'Arial', sans-serif;
     }
     .pagination li.active a {
-        background-color: #4CAF50;
-        color: white !important;
+        background-color: var(--md-theme-default-primary,#000);
+        color: var(--md-theme-default-text-primary-on-accent, #fff);
     }
     .pagination li:hover:not(.active) {
-        background-color: #ddd;
+        background-color: var(--md-theme-default-primary,#000);
     }
 </style>

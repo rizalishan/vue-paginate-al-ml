@@ -6,9 +6,9 @@
 #### Register as Plugin
 ```js
     import Vue from 'vue'
-    import VuePaginateAl from 'vue-paginate-ml'
+    import VuePaginateMl from 'vue-paginate-ml'
 
-    Vue.component('vue-paginate-ml', VuePaginateAl)
+    Vue.component('vue-paginate-ml', VuePaginateMl)
 ```
 
 #### Usage
@@ -16,26 +16,26 @@
     <template>
         <div>
             // example 1
-            <vue-paginate-al :totalPage="10" @btnClick="goToFunction"></vue-paginate-al>
+            <vue-paginate-ml :totalPage="10" @btnClick="goToFunction"></vue-paginate-ml>
 
             // example 2 => with background color
-            <vue-paginate-al :totalPage="15" activeBGColor="success" :withNextPrev="false"></vue-paginate-al>
+            <vue-paginate-ml :totalPage="15" activeBGColor="success" :withNextPrev="false"></vue-paginate-ml>
 
             // example 3 => with single data
-            <vue-paginate-al :totalPage="20" :myData="'myname'" @btnClick="goToFuncWithData"></vue-paginate-al>
+            <vue-paginate-ml :totalPage="20" :myData="'myname'" @btnClick="goToFuncWithData"></vue-paginate-ml>
 
             // example 4 => with multiple data
-            <vue-paginate-al :totalPage="20" :myData="['myname', 'myemail']" @btnClick="goToFuncWithMultipleData"></vue-paginate-al>
+            <vue-paginate-ml :totalPage="20" :myData="['myname', 'myemail']" @btnClick="goToFuncWithMultipleData"></vue-paginate-ml>
         </div>
     </template>
 
     <script>
-        import VuePaginateAl from 'vue-paginate-ml'
+        import VuePaginateMl from 'vue-paginate-ml'
 
         export default {
             name: 'App',
             components: {
-                VuePaginateAl
+                VuePaginateMl
             },
             methods : {
                 goToFunction : function(n)

@@ -1,6 +1,6 @@
 {
   "name": "vue-paginate-ml",
-  "version": "1.0.16",
+  "version": "1.0.1",
   "description": "paginate for vue js and material design",
   "main": "dist/bundle.js",
   "scripts": {
@@ -21,25 +21,25 @@
     "file-loader": "^1.1.4",
     "jquery": "^3.2.1",
     "style-loader": "^0.18.2",
-    "url-loader": "^0.5.9",
-    "vue-loader": "^13.0.5",
-    "vue-template-compiler": "^2.4.4"
+    "vue-loader": "^15.3.0",
+    "vue-template-compiler": "^2.5.17",
+    "url-loader": "^0.5.9"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
     "css-loader": "^0.28.7",
-    "vue-loader": "^13.0.5",
-    "vue-template-compiler": "^2.4.4",
+    "vue-loader": "^15.3.0",
+    "vue-template-compiler": "^2.5.17",
     "webpack": "^4.16.5"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alziqziq/vue-paginate-ml.git"
+    "url": "git+https://github.com/rizalishan/vue-paginate-ml.git"
   },
   "bugs": {
-    "url": "https://github.com/alziqziq/vue-paginate-ml/issues"
+    "url": "https://github.com/rizalishan/vue-paginate-ml/issues"
   },
-  "homepage": "https://github.com/alziqziq/vue-paginate-ml#readme"
+  "homepage": "https://github.com/rizalishan/vue-paginate-ml#readme"
 }

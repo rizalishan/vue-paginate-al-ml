@@ -1,12 +1,14 @@
 const path = require('path')
 var webpack = require('webpack');
+const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
     entry : './src/index.js',
+    mode: 'production',
     output : {
         path : path.resolve(__dirname, 'dist'),
         filename : 'bundle.js',
-        library : 'VuePaginateAlMl',
+        library : 'VuePaginateMl',
         libraryTarget : 'umd'
     },
     resolve: {
@@ -41,6 +43,7 @@ module.exports = {
           jquery: "jquery",
           "window.jQuery": "jquery",
           jQuery:"jquery"
-        })
+        }),
+        new VueLoaderPlugin()
     ]
 }
